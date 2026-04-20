@@ -4,14 +4,6 @@ import torch
 import math
 from module.utils import *
 from cross_modal_recall import *
-mlambda = [
-            lambda x: x ** 0,
-            lambda x: x ** 1,
-            lambda x: 2 * x ** 2 - 1,
-            lambda x: 4 * x ** 3 - 3 * x,
-            lambda x: 8 * x ** 4 - 8 * x ** 2 + 1,
-            lambda x: 16 * x ** 5 - 20 * x ** 3 + 5 * x
-        ]
 def gen_label(labels):
     num = len(labels)
     gt = numpy.zeros(shape=(num,num))
