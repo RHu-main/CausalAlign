@@ -29,5 +29,11 @@ Together, these modules aim to mitigate alignment bias, harmonize heterogeneous 
 
 ---
 
+## Code Structure
+* We set basic configuration in config.py and use <python main_mm.py> to start modal training and evaluation.
+* In <tool.py> we compute causal logits by method **create_logits_causal**, and the SCR\HFC\CFA are defined in utils.py.
+* Note that the data split we have followed the protocol of [SMIE](https://github.com/YujieOuO/SMIE).
+
+
 
 
