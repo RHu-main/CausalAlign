@@ -34,6 +34,24 @@ Together, these modules aim to mitigate alignment bias, harmonize heterogeneous 
 * In <tool.py> we compute causal logits by method **create_logits_causal**, and the SCR\HFC\CFA are defined in utils.py.
 * Note that the data split we have followed the protocol of [SMIE](https://github.com/YujieOuO/SMIE).
 
+---
+
+## Aknowledge
+We thanks to the community that provide full strucutre of this code repo:
+
+```bibtex
+@article{zhou2025pgfa,
+  title={Zero-Shot Skeleton-Based Action Recognition With Prototype-Guided Feature Alignment},
+  author={Kai Zhou and Shuhai Zhang and Zeng You and Jinwu Hu and Mingkui Tan and Fei Liu},
+  journal={IEEE Transactions on Image Processing},
+  year={2025},
+  volume={34},
+  pages={4602-4617},
+  publisher={IEEE},
+  doi={10.1109/TIP.2025.3586487}
+}
+```
+
 
 
 
